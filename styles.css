@@ -1,25 +1,18 @@
 body, html {
     font-family:Arial, Helvetica, sans-serif;
-
-    height: 100%;
-    display: grid;
 }
 
-body::after {
-    content: "";
-    background-image: url(sciggles.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 50%;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    position: fixed;
-    z-index: -1;
+#logo {
+    margin: 20px auto;
+    width: 25%;
 }
 
-#inner {
-    margin: auto;
+#content {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+    min-width: 100%;
 }
