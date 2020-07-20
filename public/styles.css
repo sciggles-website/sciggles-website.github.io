@@ -13,3 +13,7 @@ a, a:link, a:visited, a:hover, a:active {
     font-size: 1.5em;
     letter-spacing: 0.05em;
 }
+
+#logo {
+    padding-top: 5%;
+}
