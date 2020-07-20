@@ -13,25 +13,3 @@ a, a:link, a:visited, a:hover, a:active {
     font-size: 1.5em;
     letter-spacing: 0.05em;
 }
-
-.logo {
-    min-width: 100%;
-    min-height: 300px;
-}
-
-#parent {
-    position: relative;
-}
-
-#background {
-    width: 100%;
-    z-index: 1;
-}
-
-#overlay {
-    position: absolute;
-    left:0;
-    top:0;
-    width: 100%;
-    z-index: 2;
-}
