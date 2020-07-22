@@ -4,16 +4,22 @@
 }
 
 body {
-    font-family: 'ShowcardGothic', Fallback, sans-serif;
+    font-family: 'ShowcardGothic', Fallback, sans-serif !important;
 }
 
 a, a:link, a:visited, a:hover, a:active {
     color: white !important;
-    text-decoration: none;
-    font-size: 1.5em;
-    letter-spacing: 0.05em;
+    text-decoration: none !important;
+    font-size: 1.5em !important;
+    letter-spacing: 0.05em !important;
 }
 
 #logo {
     padding-top: 4%;
+}
+
+#about-text {
+    color: #343a40 !important;
+    background-color: #80868C;
+    padding: .25em;
 }
