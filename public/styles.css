@@ -18,6 +18,10 @@ a, a:link, a:visited, a:hover, a:active {
     padding-top: 4%;
 }
 
+.logo-image {
+    width: 100%
+}
+
 #about-text {
     color: #343a40 !important;
     background-color: #80868C;

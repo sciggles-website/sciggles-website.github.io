@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-    <link rel="stylesheet" href="public/styles.css" />
+    <link rel="stylesheet" href="public/styles.css?v=07232020" />
 
     <link rel="stylesheet" href="public/bootstrap.min.css" />
 </head>
@@ -18,8 +18,13 @@
 <body class="bg-dark">
     <div id="logo" class="container-fluid px-0">
         <div class="row no-gutters">
-            <div class="col-12">
-                <img class="img-fluid" src="public/logo.png" alt="logo" />
+            <div class="col-sm-12">
+                <picture>
+                    <source srcset="public/logo-2400.png" media="(max-width: 2400px)">
+                    <source srcset="public/logo-1900.png" media="(max-width: 1900px)">
+                    <source srcset="public/logo-1400.png" media="(max-width: 1400px)">
+                    <img class="img-fluid logo-image" src="public/logo.png" alt="Sciggles Art Logo" />
+                </picture>
             </div>
         </div>
     </div>
@@ -76,7 +81,11 @@
         <div class="row pt-4">
             <div class="col-lg-3"></div>
             <div class="col-lg-7">
-                <img src="public/sciggles.png" class="img-fluid mx-auto d-block" alt="footer icon">
+                <picture>
+                    <source srcset="public/sciggles-700.png" media="(max-width: 2100px)">
+                    <source srcset="public/sciggles-400.png" media="(max-width: 1200px)">
+                    <img src="public/sciggles.png" class="img-fluid mx-auto d-block" alt="Sciggles footer icon">
+                </picture>
             </div>
         </div>
     </div>
